@@ -41,5 +41,4 @@ const Signs = () => {
         </>
     )
 }
-
-export default Signs
+export default withAuth(Signs)
