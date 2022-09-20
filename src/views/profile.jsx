@@ -1,7 +1,7 @@
 import withAuth from "../hoc/withAuth"
 import ProfileHeader from "../Profile/ProfileHeader"
 import ProfileActions from "../Profile/ProfileActions"
-import SignsHistory from "../Profile/SignsHistory"
+import TranslationsHistory from "../Profile/TranslationsHistory"
 import { useUser } from "../store/UserStore"
 
 const Profile = () => {
@@ -12,7 +12,7 @@ const Profile = () => {
         <h1>Profile</h1>
         <ProfileHeader username= {user.username} />
         <ProfileActions />
-        <SignsHistory signs={ user.signs}/>
+        <TranslationsHistory translations={ user.translations}/>
         </>
     )
 }

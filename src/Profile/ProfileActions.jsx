@@ -1,4 +1,4 @@
-const ProfileActions = ({ signs }) => {
+const ProfileActions = () => {
     return (
         <p>Actions</p>
     )

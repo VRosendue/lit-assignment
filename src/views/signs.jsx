@@ -1,8 +1,8 @@
 import withAuth from "../hoc/withAuth"
 
-const Signs = () => {
+const Translations = () => {
     return (
         <h1>Signs</h1>
     )
 }
-export default withAuth(Signs)
+export default withAuth(Translations)
