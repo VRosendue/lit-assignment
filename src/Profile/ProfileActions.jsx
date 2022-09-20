@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom"
 import {storageRead} from "../../utils/storage"
 import { STORAGE_KEY_USER} from "../../const/storageKeys"
@@ -14,6 +15,7 @@ const ProfileActions = () => {
         setUser(null)
         }
     }
+
     return (
         <ul>
         <li><button onClick={handleLogoutClick}>Logout</button> </li>

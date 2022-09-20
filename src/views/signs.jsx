@@ -6,7 +6,7 @@ import SignsButton from "../components/Signs/SignsButtons"
 //     .then(data => computers = data)
 //     .then(computers => addComputersToList(computers));
 
-const Signs = () => {
+const Translations = () => {
     return (
         <>
             <h1>Signs</h1>
@@ -41,4 +41,4 @@ const Signs = () => {
         </>
     )
 }
-export default withAuth(Signs)
+export default withAuth(Translations)
