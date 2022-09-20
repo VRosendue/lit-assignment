@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import {storageRead} from "../utils/storage"
 import { STORAGE_KEY_USER} from "../const/storageKeys"
 import {useUser} from "../store/UserStore"
-//import {storageDelete} from "../utils/storage"
+import {storageDelete} from "../utils/storage"
 
 const ProfileActions = () => {
     
