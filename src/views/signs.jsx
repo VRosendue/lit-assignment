@@ -1,5 +1,5 @@
 import SignsButton from "../components/Signs/SignsButtons"
-//import withAuth from "..."
+import withAuth from "../hoc/withAuth"
 
 // fetch("C:\Users\MKastr\Documents\GitHub\lit-assignment\public\img\")
 //     .then(response => response.json())

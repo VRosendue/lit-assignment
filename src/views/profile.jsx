@@ -13,7 +13,7 @@ const Profile = () => {
         <>
         <h1>Profile</h1>
         <ProfileHeader username={user.username} />
-        <ProfileActions logout={logout} />
+        <ProfileActions logout={user.logout} />
         <TranslationsHistory translations={ user.translations}/>  
         </>
     )
