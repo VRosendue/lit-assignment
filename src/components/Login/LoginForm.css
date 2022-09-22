@@ -1,0 +1,73 @@
+/* picture thing */
+.firstPicture {
+  size: 50%;
+  width: 10%;
+}
+
+.continueCircle {
+  padding: 0.5rem 1rem;
+  background-color: #845ec2;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border: none;
+  font-size: inherit;
+}
+
+.continueCircle:hover {
+  background-color: rgb(33, 252, 13);
+  color: rgb(0, 0, 0);
+  transform: scale(1.2);
+}
+
+.continueCircle:disabled {
+  background-color: rgba(128, 255, 0, 0.546);
+  color: black;
+}
+
+.usernameBox {
+    background-color: #ffff;
+    border: 3px solid blanchedalmond;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.usernameBoxLower {
+    color: #845ec2;
+    padding-bottom: 0.5rem;
+
+
+}
+
+
+.textInput {
+    font-family: sans-serif;
+    background-color: #EFEFEF;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    flex-grow: 1;
+    border: #EFEFEF
+}
+
+.hidden.hidden {
+    border-style: hidden;
+}
+
+
+
+
+/* box-sizing: border-box;
+    
+    position: relative;
+    width: 71px;
+    height: 55px;
+    z-index: -1;
+    
+    
+    
+    border: 5px solid #FFFFFF; */

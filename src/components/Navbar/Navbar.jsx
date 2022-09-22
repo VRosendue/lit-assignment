@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom"
 import { useUser } from "../../store/UserStore"
+import "../Navbar/Navbar.css";
 
 
 const Navbar = () => {
@@ -7,9 +8,11 @@ const Navbar = () => {
     const { user } = useUser()
 
     return (
-        <nav>
+        
+        
+         <nav>
             <ul>
-                <li>Sign translations</li>
+                {/* <li>Sign translations</li> */}
             </ul>
 
             { user !== null && 
@@ -23,6 +26,7 @@ const Navbar = () => {
                 </ul>
             }
         </nav>
+     
     )
 }
 export default Navbar

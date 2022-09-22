@@ -4,6 +4,7 @@ import {storageRead} from "../utils/storage"
 import { STORAGE_KEY_USER} from "../const/storageKeys"
 import {useUser} from "../store/UserStore"
 import {storageDelete} from "../utils/storage"
+import '../../src/App.css';
 
 const ProfileActions = () => {
     

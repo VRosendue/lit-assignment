@@ -6,6 +6,8 @@ import { useNavigate } from 'react-router-dom'
 import { useUser } from '../../store/UserStore'
 import { STORAGE_KEY_USER } from '../../const/storageKeys'
 
+import "../Login/LoginForm.css";
+
 const usernameConfig = {
     required: true,
     minLength: 3
@@ -62,17 +64,30 @@ const LoginForm = () => {
     })()
     return (
         <>
-           <h2> What's your name?</h2>
+           <h2>Lost in Translation</h2>
            <form onSubmit={ handleSubmit(onSubmit) }>
-                <fieldset>
-                    <label htmlFor="username"> Username</label>
+                <fieldset className='hidden'>
+                    
+                    <div className="rectangle">
+                    <img className='firstPicture' image src="Logo.png"/>
+                    <label htmlFor="username"></label>
+                    <div className="usernameBox">
+                        
+                        
+                    
                     <input type="text"
-                    placeholder="Example... VincDue"
+                    placeholder="What's your name?" className="textInput"
                     { ...register("username", usernameConfig) } />
                     {errorMessage}
+                    <button className='continueCircle' type="submit" disabled={ loading }> > </button>
+                    <div className="usernameBoxLower">
+
+                    </div>
+                    </div>
+                    </div>
                 </fieldset>
             
-                <button type="submit" disabled={ loading }>continue</button>
+                
 
                 { loading && <p>Logging in...</p>}
                 { apiError && <p> {apiError } </p>}
