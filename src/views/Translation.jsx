@@ -2,6 +2,7 @@ import { useState } from "react"
 import { translationAdd } from "../api/translate"
 import { OutputTranslateContainer, OutputTranslation, TranslationText } from "../components/styles/Container.styled"
 import TranslationsInput from "../components/Translator/TranslationsInput"
+import TranslationOutput from "../components/Translator/TranslationsOutput"
 import { STORAGE_KEY_USER } from "../const/storageKeys"
 import withAuth from "../hoc/withAuth"
 import { useUser } from "../store/UserStore"
@@ -47,7 +48,7 @@ const Translation = () => {
                 <TranslationsInput childClicked={handleTranslateClicked} />
             </TranslationText>
             <OutputTranslateContainer>
-                <OutputTranslation inputText= {inputText}/>
+                <TranslationOutput inputText= {inputText}/>
             </OutputTranslateContainer>
         </>
     );
