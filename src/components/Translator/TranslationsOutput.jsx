@@ -3,9 +3,9 @@ import Translations from "./Translations"
 
 const TranslationOutput = ({inputText}) => {
     if(inputText !== null) {
-        const charLowerCase = inputText.toLowerCase()
-        const char = [...charLowerCase]
-        const renderTranslation = char.map((char, index) => <Translations key={index} letter={char}/>)
+        const lowerCase = inputText.toLowerCase()
+        const letters = [...lowerCase]
+        const renderTranslation = letters.map((letter, index) => <Translations key={index} letter={letter}/>)
 
         return (
             <>
