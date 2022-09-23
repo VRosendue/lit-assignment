@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form"
 import { BsKeyboard, BsArrowRight } from 'react-icons/bs'
 import { TranslationText } from "../styles/Container.styled"
-import { Input, InputButton, InputForm } from "../styles/Input.styled"
+import { Input, InputButton, InputErrorMessage, InputForm } from "../styles/Input.styled"
 
 
 
@@ -55,6 +55,7 @@ const TranslationsInput = ({childClicked}) => {
                     </InputButton>
                 </TranslationText>
             </InputForm>
+            <InputErrorMessage>{errorMessage}</InputErrorMessage>
         </>
     );
 }

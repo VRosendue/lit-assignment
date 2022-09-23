@@ -53,9 +53,9 @@ export const InputForm = styled.form`
     justify-content: center;
 `
 
-// export const InputErrorMessage = styled.div`
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-// `
+export const InputErrorMessage = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`
 

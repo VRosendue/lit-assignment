@@ -1,7 +1,5 @@
 import { NavLink } from "react-router-dom"
 import { useUser } from "../../store/UserStore"
-import React from 'react'
-import ReactDOM from 'react-dom'
 
 
 const Navbar = () => {
