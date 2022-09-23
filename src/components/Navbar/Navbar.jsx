@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom"
 import { useUser } from "../../store/UserStore"
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 
 const Navbar = () => {
@@ -15,7 +17,7 @@ const Navbar = () => {
             { user !== null && 
                 <ul>
                     <li>
-                        <NavLink to="/translate">Translate</NavLink>
+                        <NavLink to="/translation">Translate</NavLink>
                     </li>
                     <li>
                         <NavLink to="profile">Profile</NavLink>
