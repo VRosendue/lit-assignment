@@ -1,0 +1,40 @@
+.profileHeader {
+    background-color: #FFC75F;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 5rem 0 10rem 0;
+    gap: 1rem;
+}
+
+.logo2, .logo3 {
+    position: relative;
+    height: auto;
+    
+}
+
+.logo2 {
+    left: -8rem;
+    max-width: 7rem;
+    z-index: 2;
+    right: -8rem;
+}
+
+.logo3 {
+    max-width: 9rem;
+    z-index: 1;
+    top: -1rem;
+}
+
+.headerFont {
+    color:antiquewhite;
+
+}
+
+.headerFont h1 {
+    font-family: "Love Ya Like A Sister", Arial, sans-serif;
+    font-size: 5vw;
+    font-weight: 400;
+}
