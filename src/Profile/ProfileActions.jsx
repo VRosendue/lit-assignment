@@ -18,9 +18,10 @@ const ProfileActions = () => {
     }
 
     return (
-        <ul>
-        <li><button onClick={handleLogoutClick}>Logout</button> </li>
-        </ul>
+        //<ul>
+        <li><button onClick={handleLogoutClick}>Logout
+        <i className="fa-solid fa-user-slash"></i> </button> </li>
+        //</ul>
     )
 }
 export default ProfileActions
