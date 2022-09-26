@@ -1,7 +1,8 @@
+import React from 'react'
 import { useState, useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 import {loginUser} from '../../api/user'
-import { storageRead, storageSave } from '../../utils/storage'
+import { storageSave } from '../../utils/storage'
 import { useNavigate } from 'react-router-dom'
 import { useUser } from '../../store/UserStore'
 import { STORAGE_KEY_USER } from '../../const/storageKeys'
@@ -78,8 +79,8 @@ const LoginForm = () => {
                     <div className="rectangle">
                     
                     
-                    <img className='firstPicture' image src="Logo.png"/>
-                    <img className='secondPicture' image src="Splash.svg"/>
+                    <img className='firstPicture' image src="Logo.png" alt="Logo"/>
+                    <img className='secondPicture' image src="Splash.svg" alt="splash"/>
                     <label htmlFor="username"></label>
                     <div className="usernameBox">
                         <i className="fa fa-keyboard-o"></i>

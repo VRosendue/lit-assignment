@@ -5,14 +5,12 @@ import {
 } from 'react-router-dom'
 
 import React from 'react'
-import ReactDOM from 'react-dom'
 import './App.css';
 import Login from './views/login';
-import Signs from './views/signs';
 import Profile from './views/profile';
 import Navbar from './components/Navbar/Navbar';
 import Translation from './views/Translation';
-import {createGlobalStyle} from 'styled-components'
+
 
 
 function App() {
@@ -26,7 +24,6 @@ function App() {
         <Route path="/profile" element={ <Profile />} />
         
       </Routes>
-      
     </div>
     </BrowserRouter>
   );

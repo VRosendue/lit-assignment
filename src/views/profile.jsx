@@ -1,4 +1,4 @@
-import { useResolvedPath } from "react-router-dom"
+import React from 'react'
 import ProfileActions from "../Profile/ProfileActions"
 import withAuth from "../hoc/withAuth"
 import ProfileHeader from "../Profile/ProfileHeader"
@@ -10,12 +10,14 @@ const Profile = () => {
     const { user } = useUser()
 
     return (
-        <>
+        
+        <body>
         <h1>Profile</h1>
         <ProfileHeader username={user.username} />
-        <ProfileActions logout={user.logout} />
         <TranslationsHistory translations={ user.translations}/>  
-        </>
+        
+        </body>
+        
     )
 }
 export default withAuth(Profile)

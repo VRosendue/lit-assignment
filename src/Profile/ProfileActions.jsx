@@ -1,6 +1,4 @@
-
-import { Link } from "react-router-dom"
-import {storageRead} from "../utils/storage"
+import React from 'react'
 import { STORAGE_KEY_USER} from "../const/storageKeys"
 import {useUser} from "../store/UserStore"
 import {storageDelete} from "../utils/storage"
@@ -17,9 +15,9 @@ const ProfileActions = () => {
     }
 
     return (
-        <ul>
-        <li><button onClick={handleLogoutClick}>Logout</button> </li>
-        </ul>
+        
+        <button className="logutButton" onClick={handleLogoutClick}>Logout</button>
+        
     )
 }
 export default ProfileActions

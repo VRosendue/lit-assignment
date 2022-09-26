@@ -1,4 +1,6 @@
+import React from 'react'
 import "../Profile/ProfileHeader.css";
+import TranslationsHistory from './TranslationsHistory';
 
 const ProfileHeader = ({ username }) => {
     return (
@@ -13,7 +15,6 @@ const ProfileHeader = ({ username }) => {
         <h1> Lost in Translation </h1>
     
     <h4> Hello, welcome back {username}</h4>
-   
    </div>
    </div>
     )

@@ -1,3 +1,4 @@
+import React from 'react'
 import { OutputTranslation } from "../styles/Container.styled"
 import Translations from "./Translations"
 

@@ -1,6 +1,7 @@
+import React from 'react'
 import { useState } from "react"
 import { translationAdd } from "../api/translate"
-import { OutputTranslateContainer, OutputTranslation, TranslationText } from "../components/styles/Container.styled"
+import { OutputTranslateContainer, TranslationText } from "../components/styles/Container.styled"
 import TranslationsInput from "../components/Translator/TranslationsInput"
 import TranslationOutput from "../components/Translator/TranslationsOutput"
 import { STORAGE_KEY_USER } from "../const/storageKeys"

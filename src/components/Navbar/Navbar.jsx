@@ -1,4 +1,6 @@
+import React from 'react'
 import { NavLink } from "react-router-dom"
+import ProfileActions from '../../Profile/ProfileActions';
 import { useUser } from "../../store/UserStore"
 import "../Navbar/Navbar.css";
 
@@ -10,10 +12,6 @@ const Navbar = () => {
     return (
         <header>
         <nav>
-            {/* <ul>
-                <li>Sign translations</li>
-            </ul> */}
-
             { user !== null && 
                 <ul>
                     <li>
@@ -21,6 +19,9 @@ const Navbar = () => {
                     </li>
                     <li>
                         <NavLink to="profile">Profile</NavLink>
+                    </li>
+                    <li>
+                    <ProfileActions logout={user.logout} />
                     </li>
                 </ul>
             }
