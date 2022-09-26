@@ -1,14 +1,33 @@
 /* picture thing */
+@font-face{
+src: "Love Ya Like A Sister", Arial, sans-serif;
+font-family: "Love Ya Like A Sister", Arial, sans-serif;
+}
+
 .firstPicture {
     size: 50%;
     width: 10%;
+    justify-content: center;
+    right: -40rem;
+    margin:auto;
+    align-items: center;
+    text-align: center;
+    
+    
     z-index: 2;
-    right: -13rem;
+    
   }
   
   .secondPicture {
+  position: relative;
+  
   z-index: 1;
-  bottom: -2rem;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  right: -25rem;
+  
   }
   
   .continueCircle {
@@ -33,16 +52,28 @@
     color: black;
   }
   
-  .usernameBox {
-      background-color: #ffff;
-      border: 3px solid blanchedalmond;
-      border-radius: 3rem;
-      display: flex;
-      align-items: center;
-      width: 50%;
-      padding: 1rem;
-      font-size: 2rem;
-  }
+  
+.usernameBox {
+  
+  background-color: #ffff;
+  border: 3px solid rgb(22, 22, 21);
+  border-radius: 3rem;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  margin: auto;
+  
+
+  
+      
+      
+      
+}
   
   .usernameBoxLower {
       color: #845ec2;
@@ -53,17 +84,21 @@
   
   
   .textInput {
+      
       font-family: sans-serif;
-      background-color: #EFEFEF;
+      background-color:  #EFEFEF;
       padding: 0.5rem;
-      margin-right: 1rem;
+      margin: 1rem;
       flex-grow: 1;
-      border: #EFEFEF
+      border: #181717,;
   }
   
-   .hidden.hidden {
-      border-style: hidden;
+  .hidden.hidden {
+  
+    border-style: hidden;
+    
   } 
+   
   
   .firstPicture, .secondPicture {
     position: relative;
@@ -75,15 +110,24 @@
   }
 
   .titletest h1 {
-    font-family: "Love Ya Like A Sister", Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 5vw;
     font-weight: 400;
+    
   }
 
   .titletest h4 {
-    font-family: "Love Ya Like A Sister", Arial, sans-serif;
-    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+  
   }
+
+  h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.75rem;
+  }
+
+ 
   
   
   

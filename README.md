@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Lost in Translation
+> Frontend assignment #2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+````
+Create a sign language translater app using React
+````
 
-## Available Scripts
+## Table of contents
+* [General](#general)
+* [Technologies](#technologies)
+* [Features](#features)
+* [Setup](#setup)
 
-In the project directory, you can run:
 
-### `npm start`
+## General
+This project is part of the Noroff Fullstack Java bootcamp course. It's the 2nd assignment of the frontend curricilum.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies
+The following technologies have been used to develop this project:
+- Figma for wireframing and sketching out the visual style of the application
+- HTML, CSS, JavaScript by using the React library
+- CSS in JavaScript code by using 'styled-components'
+- Bootstrap for icons
+- Node.js
 
-### `npm test`
+## Features
+- The user must create a new user account in order to use the application
+- The account is unique and personal for the user
+- The user is able to translate words and sentences into sign language
+- The account will have the 10 latest translations saved under 'translation history'
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup
 
-### `npm run build`
+[Link to heroku] ()
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If you decide to download the source code and try it for yourself you must have Node.js installed.
+When Node.js is installed the following CLI should be used to launch the app
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+````
+npm start
+````
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Thumbs up](/public/thumbsup.gif)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Peace
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Mathias Kastrup Gylden, Vincent Rosenørn-Due, Phillip Friis Petersen
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

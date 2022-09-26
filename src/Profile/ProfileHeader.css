@@ -1,3 +1,15 @@
+@font-face{
+    font-family: 'seat bcn regular';
+    src: url(/public/fonts/SeatBcn-Regular.woff)
+    format("woff");
+}
+
+@font-face {
+    font-family: 'seat bcn bold';
+    src: url(/public/fonts/SeatBcn-Bold.woff)
+    format("woff");
+}
+
 .profileHeader {
     background-color: #FFC75F;
     display: flex;
@@ -20,6 +32,7 @@
     max-width: 7rem;
     z-index: 2;
     right: -8rem;
+    animation: rotation 1s infinite linear;
 }
 
 .logo3 {
@@ -30,11 +43,53 @@
 
 .headerFont {
     color:antiquewhite;
-
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 .headerFont h1 {
-    font-family: "Love Ya Like A Sister", Arial, sans-serif;
+    font-family: 'seat bcn bold';
     font-size: 5vw;
     font-weight: 400;
+}
+
+
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5vw;
+}
+
+h4 {
+    font-size: 1.5vw;
+}
+
+ul {
+    font-weight: bolder;
+    font-size: 1.25vw;
+
+}
+
+.profileTag {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    margin: top, left;
+    left: auto;
+    top: auto;
+
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(-45deg);
+        
+    }
+    50% {
+        transform: rotate(45deg);
+        
+    }
+    100% {
+        transform: rotate(-45deg);
+    }
 }

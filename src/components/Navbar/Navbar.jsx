@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
+import ProfileActions from "../../Profile/ProfileActions";
 import { useUser } from "../../store/UserStore"
 import "../Navbar/Navbar.css";
 
@@ -10,22 +11,35 @@ const Navbar = () => {
 
     return (
         <header>
-        <nav>
+
+        <div className="naverstest">   
+        <nav className="navers">
+        
             {/* <ul>
                 <li>Sign translations</li>
             </ul> */}
 
             { user !== null && 
-                <ul>
-                    <li>
-                        <NavLink to="/translation">Translate</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="profile">Profile</NavLink>
-                    </li>
-                </ul>
+                
+                <div className="naverstest2">
+                    <span className="hehe1"><NavLink to="/translation"><i className="fa fa-hand-paper-o"></i>
+                    Translate</NavLink></span>
+                    
+                    
+                    <span className="hehe"><NavLink to="profile"><i className="fa fa-user-circle-o"></i>
+                    Profile</NavLink></span>
+                    
+                    
+                    <span className="hehe2"><i className="fa fa-key" id="logout-key"></i>
+                        <ProfileActions logout={user.logout} /></span>
+                    
+            
+                </div>
+
             }
-        </nav>
+          
+           </nav>
+           </div> 
         </header>
         
     )

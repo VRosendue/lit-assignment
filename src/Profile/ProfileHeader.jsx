@@ -1,20 +1,20 @@
 import React from 'react'
 import "../Profile/ProfileHeader.css";
+import TranslationsHistory from './TranslationsHistory';
+import { useUser } from "../store/UserStore"
 
 const ProfileHeader = ({ username }) => {
+    const { user } = useUser()
     return (
         <div className="profileHeader">
         <div className="profileHeaderPicture">
-            <img className="logo3" src="Splash.svg" alt=""></img>
-            <img className="logo2" src="Logo.png" alt=""></img>
+            <img className="logo2" src="Logo-Hello.png" alt=""></img>
             
         </div>
    
         <div className="headerFont">
-        <h1> Lost in Translation </h1>
-    
-    <h4> Hello, welcome back {username}</h4>
-   
+        <h2> Hello {username}, welcome back!</h2>
+        <TranslationsHistory translations={ user.translations}/>  
    </div>
    </div>
     )

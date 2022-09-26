@@ -1,6 +1,5 @@
 import React from 'react'
 import { useForm } from "react-hook-form"
-import { BsKeyboard, BsArrowRight } from 'react-icons/bs'
 import { TranslationText } from "../styles/Container.styled"
 import { Input, InputButton, InputErrorMessage, InputForm } from "../styles/Input.styled"
 
@@ -48,13 +47,11 @@ const TranslationsInput = ({childClicked}) => {
     return (
         <>
             <InputForm onSubmit={handleSubmit(onSubmit)}>
-                <TranslationText>
-                    <BsKeyboard style={style} size={50}/>
+                    <i className="fa fa-keyboard-o"></i>
                     <Input type='text' placeholder='Type something to translate it...' {...register('inputText', inputConfig)}/>
                     <InputButton type="submit">
-                        <BsArrowRight size={50} color={"white"}/>
+                        <i className="fa fa-arrow-right"></i>
                     </InputButton>
-                </TranslationText>
             </InputForm>
             <InputErrorMessage>{errorMessage}</InputErrorMessage>
         </>

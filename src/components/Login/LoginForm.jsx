@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 import {loginUser} from '../../api/user'
-import { storageRead, storageSave } from '../../utils/storage'
+import { storageSave } from '../../utils/storage'
 import { useNavigate } from 'react-router-dom'
 import { useUser } from '../../store/UserStore'
 import { STORAGE_KEY_USER } from '../../const/storageKeys'
@@ -68,7 +68,8 @@ const LoginForm = () => {
             <h2> Lost in Translation</h2>
         </header>
         <div className="titletest">
-                    <h1>Lost in Translation</h1>
+                    <h3>Interactive translator app</h3>
+                    <h4>Translate your words or senctences into sign language</h4>
                     <h4>Get Started</h4>
                     </div>
            
@@ -76,31 +77,31 @@ const LoginForm = () => {
            <form onSubmit={ handleSubmit(onSubmit) }>
                 <fieldset className='hidden'>
                     
-                    <div className="rectangle">
+                  
                     
                     
-                    <img className='firstPicture' image src="Logo.png"/>
-                    <img className='secondPicture' image src="Splash.svg"/>
+                    <img className='firstPicture' image src="Logo.png" alt="Logo"/>
+                    <img className='secondPicture' image src="Splash.svg" alt="splash"/>
                     <label htmlFor="username"></label>
                     <div className="usernameBox">
                         <i className="fa fa-keyboard-o"></i>
-                        <span className="usernameInput">|</span>
+                        <span className="usernameInput"></span>
                         
                         
                     
-                    <input type="text"
-                    placeholder="What's your name?" className="textInput"
-                    { ...register("username", usernameConfig) } />
-                    {errorMessage}
-                    <button className='continueCircle' type="summit" disabled={ loading }>
+                       <input type="text"
+                       placeholder="What's your name?" className="textInput"
+                       { ...register("username", usernameConfig) } />
+                       {errorMessage}
+                       <button className='continueCircle' type="summit" disabled={ loading }>
                         <i className="fa fa-arrow-right"></i>
-                     </button>
-                    <div className="usernameBoxLower">
+                       </button>
+                       <div className="usernameBoxLower">
                     
 
                     </div>
-                    </div>
-                    </div>
+                </div>
+                    
                 </fieldset>
             
                 
