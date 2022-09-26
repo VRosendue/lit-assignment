@@ -1,3 +1,4 @@
+import React from 'react'
 import { useForm } from "react-hook-form"
 import { BsKeyboard, BsArrowRight } from 'react-icons/bs'
 import { TranslationText } from "../styles/Container.styled"

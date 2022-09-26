@@ -1,3 +1,4 @@
+import React from 'react'
 import "../Profile/ProfileHeader.css";
 
 const ProfileHeader = ({ username }) => {

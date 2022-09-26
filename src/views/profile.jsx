@@ -1,3 +1,4 @@
+import React from 'react'
 import { useResolvedPath } from "react-router-dom"
 import ProfileActions from "../Profile/ProfileActions"
 import withAuth from "../hoc/withAuth"

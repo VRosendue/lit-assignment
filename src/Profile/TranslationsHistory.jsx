@@ -1,3 +1,4 @@
+import React from 'react'
 import ProfileTranslationsHistoryItem from "./ProfileTranslationsHistoryItem"
 
 const TranslationsHistory = ({ translations }) => {

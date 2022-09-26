@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState } from "react"
 import { translationAdd } from "../api/translate"
 import { OutputTranslateContainer, OutputTranslation, TranslationText } from "../components/styles/Container.styled"
