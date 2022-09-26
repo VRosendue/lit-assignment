@@ -29,7 +29,7 @@ export const Input = styled.input`
         font-family: sans-serif;
         background-color: #EFEFEF;
         padding: 0.5rem;
-        margin-right: 1rem;
+        margin: 1rem;
         flex-grow: 1;
         border: #FFFFFFF
 `
@@ -65,6 +65,7 @@ export const InputForm = styled.form`
     width: 50%;
     padding: 1rem;
     font-size: 2rem;
+    margin: auto;
 `
 
 export const InputErrorMessage = styled.div`
