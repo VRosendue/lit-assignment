@@ -11,6 +11,7 @@ Create a sign language translater app using React
 * [Features] (#features)
 * [Setup] (#setup)
 
+<a name="general"/>
 ## General
 This project is part of the Noroff Fullstack Java bootcamp course. It's the 2nd assignment of the frontend curricilum.
 
