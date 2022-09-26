@@ -3,6 +3,7 @@ import "../Profile/ProfileHeader.css";
 const ProfileHeader = ({ username }) => {
     return (
         <div className="profileHeader">
+        <h1 className="profileTag">Profile Overview</h1>
         <div className="profileHeaderPicture">
             <img className="logo3" src="Splash.svg" alt=""></img>
             <img className="logo2" src="Logo.png" alt=""></img>

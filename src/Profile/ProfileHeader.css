@@ -38,3 +38,12 @@
     font-size: 5vw;
     font-weight: 400;
 }
+
+.profileTag {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    margin: top, left;
+    left: auto;
+    top: auto;
+}
