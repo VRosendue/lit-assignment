@@ -6,10 +6,10 @@ Create a sign language translater app using React
 ````
 
 ## Table of contents
-* [General] (##general)
-* [Technologies] (##technologies)
-* [Features] (##features)
-* [Setup] (##setup)
+* [General](#general)
+* [Technologies](#technologies)
+* [Features](#features)
+* [Setup](#setup)
 
 
 ## General
