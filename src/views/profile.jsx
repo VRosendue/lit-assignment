@@ -14,6 +14,7 @@ const Profile = () => {
             <ProfileHeader username={user.username} />
         </body>
         
+
     )
 }
 export default withAuth(Profile)

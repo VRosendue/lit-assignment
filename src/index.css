@@ -1,14 +1,15 @@
 body {
-
+  margin: auto;
   position: relative;
   background: #ffffff;
   }
   
   #rectangle {
-  position: flex;
-  width: 100%;
-  background: #FFC75F;
-  margin: auto;
+  display: inherit;
+  display: grid;
+  height: 700px;
+  size: 500rem;
+  background:  #FFC75F;
   }
   
   #title {
@@ -30,17 +31,18 @@ body {
   
   /* #upperRectangle  {
   
-  position: absolute;
-  width: 1440px;
-  height: 101px;
-  left: 0px;
-  top: 0px;
-  
-  
-  background: #FFC75F;
-  
-  
-  } */
+    position: absolute;
+    width: 1440px;
+    height: 101px;
+    left: 0px;
+    top: 0px;
+    
+    
+    background: #FFC75F;
+    
+    
+    }
+
   
   
   

@@ -53,6 +53,7 @@
 }
 
 
+
 h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2.5vw;
@@ -65,4 +66,13 @@ h4 {
 ul {
     font-weight: bolder;
     font-size: 1.25vw;
+
+.profileTag {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    margin: top, left;
+    left: auto;
+    top: auto;
+
 }
