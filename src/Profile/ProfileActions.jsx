@@ -17,9 +17,9 @@ const ProfileActions = () => {
     }
 
     return (
-        <ul>
-        <li><button onClick={handleLogoutClick}>Logout</button> </li>
-        </ul>
+        
+        <button onClick={handleLogoutClick}>Logout</button>
+        
     )
 }
 export default ProfileActions

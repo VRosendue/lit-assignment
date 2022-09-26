@@ -75,7 +75,7 @@ const LoginForm = () => {
            <form onSubmit={ handleSubmit(onSubmit) }>
                 <fieldset className='hidden'>
                     
-                    <div className="rectangle">
+                  
                     
                     
                     <img className='firstPicture' image src="Logo.png"/>
@@ -83,23 +83,23 @@ const LoginForm = () => {
                     <label htmlFor="username"></label>
                     <div className="usernameBox">
                         <i className="fa fa-keyboard-o"></i>
-                        <span className="usernameInput">|</span>
+                        <span className="usernameInput"></span>
                         
                         
                     
-                    <input type="text"
-                    placeholder="What's your name?" className="textInput"
-                    { ...register("username", usernameConfig) } />
-                    {errorMessage}
-                    <button className='continueCircle' type="summit" disabled={ loading }>
+                       <input type="text"
+                       placeholder="What's your name?" className="textInput"
+                       { ...register("username", usernameConfig) } />
+                       {errorMessage}
+                       <button className='continueCircle' type="summit" disabled={ loading }>
                         <i className="fa fa-arrow-right"></i>
-                     </button>
-                    <div className="usernameBoxLower">
+                       </button>
+                       <div className="usernameBoxLower">
                     
 
                     </div>
-                    </div>
-                    </div>
+                </div>
+                    
                 </fieldset>
             
                 

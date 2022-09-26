@@ -1,5 +1,5 @@
 body {
-
+  margin: auto;
   position: relative;
   width: 100%;
   height: 100%;
@@ -8,12 +8,11 @@ body {
   
   #rectangle {
   
-  position: relative;
-  width: 1440px;
-  height: 474px;
-  
-  
-  background: #FFC75F;
+  display: inherit;
+  display: grid;
+  height: 700px;
+  size: 500rem;
+  background:  #FFC75F;
   }
   
   #title {
@@ -37,17 +36,17 @@ body {
   
   #upperRectangle  {
   
-  position: absolute;
-  width: 1440px;
-  height: 101px;
-  left: 0px;
-  top: 0px;
-  
-  
-  background: #FFC75F;
-  
-  
-  }
+    position: absolute;
+    width: 1440px;
+    height: 101px;
+    left: 0px;
+    top: 0px;
+    
+    
+    background: #FFC75F;
+    
+    
+    }
   
   
   
