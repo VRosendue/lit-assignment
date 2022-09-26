@@ -32,7 +32,7 @@ The following technologies have been used to develop this project:
 
 ## Setup
 
-[Link to heroku] ()
+[Link to heroku](https://lostintranslation-assignment.herokuapp.com/)
 
 If you decide to download the source code and try it for yourself you must have Node.js installed.
 When Node.js is installed the following CLI should be used to launch the app
