@@ -1,14 +1,64 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  }
+  
+  #rectangle {
+  
+  position: relative;
+  width: 1440px;
+  height: 474px;
+  
+  
+  background: #FFC75F;
+  }
+  
+  #title {
+  
+  position: relative;
+  width: 427px;
+  height: 49px;
+  
+  
+  font-family: 'Love Ya Like A Sister';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  
+  
+  
+  color: #f40a0a;
+  
+  }
+  
+  #upperRectangle  {
+  
+  position: absolute;
+  width: 1440px;
+  height: 101px;
+  left: 0px;
+  top: 0px;
+  
+  
+  background: #FFC75F;
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 

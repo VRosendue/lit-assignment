@@ -5,6 +5,7 @@ import { storageRead, storageSave } from '../../utils/storage'
 import { useNavigate } from 'react-router-dom'
 import { useUser } from '../../store/UserStore'
 import { STORAGE_KEY_USER } from '../../const/storageKeys'
+import "../Login/LoginForm.css";
 
 const usernameConfig = {
     required: true,
@@ -62,22 +63,50 @@ const LoginForm = () => {
     })()
     return (
         <>
-           <h2> What's your name?</h2>
+          <header>
+            <h2> Lost in Translation</h2>
+        </header>
+        <div className="titletest">
+                    <h1>Lost in Translation</h1>
+                    <h4>Get Started</h4>
+                    </div>
+           
+
            <form onSubmit={ handleSubmit(onSubmit) }>
-                <fieldset>
-                    <label htmlFor="username"> Username</label>
+                <fieldset className='hidden'>
+                    
+                    <div className="rectangle">
+                    
+                    
+                    <img className='firstPicture' image src="Logo.png"/>
+                    <img className='secondPicture' image src="Splash.svg"/>
+                    <label htmlFor="username"></label>
+                    <div className="usernameBox">
+                        <i className="fa fa-keyboard-o"></i>
+                        <span className="usernameInput">|</span>
+                        
+                        
+                    
                     <input type="text"
-                    placeholder="Example... VincDue"
+                    placeholder="What's your name?" className="textInput"
                     { ...register("username", usernameConfig) } />
                     {errorMessage}
+                    <button className='continueCircle' type="summit" disabled={ loading }>
+                        <i className="fa fa-arrow-right"></i>
+                     </button>
+                    <div className="usernameBoxLower">
+                    
+
+                    </div>
+                    </div>
+                    </div>
                 </fieldset>
             
-                <button type="submit" disabled={ loading }>continue</button>
+                
 
                 { loading && <p>Logging in...</p>}
                 { apiError && <p> {apiError } </p>}
             </form>
-
         </>
     )
 }

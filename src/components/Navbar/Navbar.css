@@ -1,0 +1,28 @@
+
+/* nav {
+    display: contents;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 3rem;
+} */
+
+header {
+    background-color: #FFC75F;
+    color: white;
+    border-bottom: 2px solid;
+    
+}
+
+.navigators {
+
+    max-width: 1300px;
+    
+    padding: 0 3rem;
+}
+
+.logoutButton {
+    width: 100%;
+}
