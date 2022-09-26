@@ -7,7 +7,6 @@ const ProfileHeader = ({ username }) => {
     const { user } = useUser()
     return (
         <div className="profileHeader">
-        <h1 className="profileTag">Profile Overview</h1>
         <div className="profileHeaderPicture">
             <img className="logo2" src="Logo-Hello.png" alt=""></img>
             

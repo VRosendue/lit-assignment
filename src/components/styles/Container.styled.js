@@ -21,7 +21,5 @@ export const OutputTranslation = styled.div`
     width: 80%;
     border-radius: 10px;
     margin: 4rem;
-    border-bottom-color: #845EC2;
-    border-bottom-width: 3rem;
-    border-bottom-style: solid;
+    
 `

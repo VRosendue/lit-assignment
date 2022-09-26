@@ -68,7 +68,8 @@ const LoginForm = () => {
             <h2> Lost in Translation</h2>
         </header>
         <div className="titletest">
-                    <h1>Lost in Translation</h1>
+                    <h3>Interactive translator app</h3>
+                    <h4>Translate your words or senctences into sign language</h4>
                     <h4>Get Started</h4>
                     </div>
            

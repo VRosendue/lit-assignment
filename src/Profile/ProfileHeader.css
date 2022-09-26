@@ -32,6 +32,7 @@
     max-width: 7rem;
     z-index: 2;
     right: -8rem;
+    animation: rotation 1s infinite linear;
 }
 
 .logo3 {
@@ -67,6 +68,8 @@ ul {
     font-weight: bolder;
     font-size: 1.25vw;
 
+}
+
 .profileTag {
     position: relative;
     display: flex;
@@ -75,4 +78,18 @@ ul {
     left: auto;
     top: auto;
 
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(-45deg);
+        
+    }
+    50% {
+        transform: rotate(45deg);
+        
+    }
+    100% {
+        transform: rotate(-45deg);
+    }
 }
