@@ -24,6 +24,8 @@ The following technologies have been used to develop this project:
 - Bootstrap for icons
 - Node.js
 
+[Link to Figma wireframe](https://www.figma.com/file/7JbPbf0YCLbcvU6mJvETTn/Assignment-2---translator-app?node-id=0%3A1)
+
 ## Features
 - The user must create a new user account in order to use the application
 - The account is unique and personal for the user
